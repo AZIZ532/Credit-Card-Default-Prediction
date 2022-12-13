@@ -22,7 +22,7 @@ class DBOperation:
         """
             Method Name : db_connector
             Description : This method creates the database with the given name and
-                          if Database already exists then opens the connection to the DB.
+            if Database already exists then opens the connection to the DB.
             Output : database connection
             On Failure : Raise exception
         """
@@ -96,7 +96,7 @@ class DBOperation:
         """
             Method Name : insert_good_data_into_table
             Description : This method inserts the good raw training data from the folder
-                          inside the given database.
+            inside the given database.
             Output : None
             On Failure : Raise Exception
 
