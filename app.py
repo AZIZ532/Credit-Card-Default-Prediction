@@ -5,9 +5,9 @@ import bz2file as bz2
 
 app = Flask(__name__)
 def decompress_pickle(file):
-  data = bz2.BZ2File(file, 'rb')
-  data = pickle.load(data)
-  return data
+    data = bz2.BZ2File(file, 'rb')
+    data = pickle.load(data)
+    return data
 
 model = decompress_pickle('ccdp.pbz2')
 
